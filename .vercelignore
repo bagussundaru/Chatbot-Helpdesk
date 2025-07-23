@@ -1,0 +1,66 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/
+vector_store/
+models/
+reports/
+
+# Large dependencies not needed for Vercel
+requirements.txt
+requirements_enhanced.txt
+requirements_simplified.txt
+
+# Documentation
+*.md
+!README_VERCEL.md
+
+# Test files
+test_*.py
+
+# Development files
+app.py
+simple_app.py
+enhanced_chatbot_app.py
+modal_deployment.py
+setup.py
+run_*.py
+
+# Excel files
+*.xlsx
+*.xls
+
+# JSON training data (too large)
+*.json
+!package.json
+
+# CSV files
+*.csv
+
+# Environment files
+.env
+.env.example

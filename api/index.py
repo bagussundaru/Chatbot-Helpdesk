@@ -1,11 +1,9 @@
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse, FileResponse
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import json
-import re
 import os
-from typing import List, Dict, Any, Optional
+from typing import List
 import logging
 from datetime import datetime
 
@@ -141,16 +139,20 @@ app.add_middleware(
 @app.get("/logo/SIPD.svg")
 async def get_logo():
     """Serve the SIPD logo"""
-    logo_path = os.path.join(os.path.dirname(__file__), "..", "logo", "SIPD.svg")
-    if os.path.exists(logo_path):
-        return FileResponse(logo_path, media_type="image/svg+xml")
-    else:
-        # Return a simple SVG if file not found
-        svg_content = '''<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-            <rect width="100" height="100" fill="#0066cc"/>
-            <text x="50" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle">SIPD</text>
-        </svg>'''
-        return HTMLResponse(content=svg_content, media_type="image/svg+xml")
+    # Return a simple SVG logo
+    svg_content = '''<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#004499;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <rect width="100" height="100" fill="url(#grad1)" rx="10"/>
+        <text x="50" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">SIPD</text>
+        <text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Helpdesk</text>
+        <text x="50" y="75" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">Chatbot</text>
+    </svg>'''
+    return HTMLResponse(content=svg_content, media_type="image/svg+xml")
 
 @app.get("/", response_class=HTMLResponse)
 async def get_chat_interface():
