@@ -1,0 +1,48 @@
+{
+  "sipd": {
+    "total_examples": 5,
+    "user_messages": {
+      "count": 5,
+      "avg_length": 86.8,
+      "min_length": 79,
+      "max_length": 94,
+      "total_words": 65,
+      "avg_words": 13.0
+    },
+    "assistant_messages": {
+      "count": 5,
+      "avg_length": 212.6,
+      "min_length": 205,
+      "max_length": 221,
+      "total_words": 162,
+      "avg_words": 32.4
+    },
+    "unique_categories": 5,
+    "category_distribution": {
+      "LoginAkses": 1,
+      "Penganggaran": 1,
+      "Pelaporan": 1,
+      "Penatausahaan": 1,
+      "Akuntansi": 1
+    }
+  },
+  "bitext": {
+    "total_examples": 10,
+    "user_messages": {
+      "count": 10,
+      "avg_length": 27.2,
+      "min_length": 18,
+      "max_length": 36,
+      "total_words": 57,
+      "avg_words": 5.7
+    },
+    "assistant_messages": {
+      "count": 10,
+      "avg_length": 227.5,
+      "min_length": 212,
+      "max_length": 253,
+      "total_words": 402,
+      "avg_words": 40.2
+    }
+  }
+}

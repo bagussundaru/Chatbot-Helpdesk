@@ -1,0 +1,62 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mengalami masalah di menu LoginAkses: Tidak bisa login ke SIPD, muncul error 500"
+      },
+      {
+        "role": "assistant",
+        "content": "Saya memahami masalah Anda di menu LoginAkses. Solusi: User dapat login dengan normal | Catatan Developer: Cek koneksi database dan clear browser cache | Catatan QA: Pastikan username dan password benar, coba browser lain"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mengalami masalah di menu Penganggaran: Error saat input DPA, data tidak tersimpan"
+      },
+      {
+        "role": "assistant",
+        "content": "Saya memahami masalah Anda di menu Penganggaran. Solusi: DPA dapat diinput dan tersimpan dengan benar | Catatan Developer: Validasi format data DPA dan cek koneksi | Catatan QA: Pastikan semua field mandatory terisi"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mengalami masalah di menu Pelaporan: Laporan tidak bisa di-export ke Excel"
+      },
+      {
+        "role": "assistant",
+        "content": "Saya memahami masalah Anda di menu Pelaporan. Solusi: Laporan dapat di-export ke format Excel | Catatan Developer: Update library export dan cek permission file | Catatan QA: Coba export dengan data yang lebih sedikit"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mengalami masalah di menu Penatausahaan: SPP tidak bisa dibuat, tombol simpan tidak aktif"
+      },
+      {
+        "role": "assistant",
+        "content": "Saya memahami masalah Anda di menu Penatausahaan. Solusi: SPP dapat dibuat dan disimpan | Catatan Developer: Cek validasi form dan JavaScript error | Catatan QA: Pastikan semua data pendukung sudah lengkap"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mengalami masalah di menu Akuntansi: Jurnal otomatis tidak terbentuk setelah posting"
+      },
+      {
+        "role": "assistant",
+        "content": "Saya memahami masalah Anda di menu Akuntansi. Solusi: Jurnal otomatis terbentuk sesuai transaksi | Catatan Developer: Cek konfigurasi akun dan mapping jurnal | Catatan QA: Verifikasi setup chart of account"
+      }
+    ]
+  }
+]

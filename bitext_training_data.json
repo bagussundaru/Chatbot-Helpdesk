@@ -1,0 +1,122 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I reset my password?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reset your password, please follow these steps: 1. Go to the login page 2. Click on Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Follow the link in the email to create a new password"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I cant log into my account"
+      },
+      {
+        "role": "assistant",
+        "content": "If youre having trouble logging in, please try: 1. Double-check your username and password 2. Clear your browser cache and cookies 3. Try using a different browser 4. If the problem persists, contact our support team"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is my order?"
+      },
+      {
+        "role": "assistant",
+        "content": "To check your order status: 1. Log into your account 2. Go to My Orders section 3. Find your order number 4. Click on it to see detailed tracking information. If you need further assistance, please provide your order number."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to cancel my order"
+      },
+      {
+        "role": "assistant",
+        "content": "To cancel your order: 1. Log into your account 2. Go to My Orders 3. Find the order you want to cancel 4. Click Cancel Order if the option is available. Note: Orders can only be cancelled before they are shipped."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I return an item?"
+      },
+      {
+        "role": "assistant",
+        "content": "To return an item: 1. Log into your account 2. Go to My Orders 3. Select the item you want to return 4. Click Return Item 5. Follow the instructions to print a return label 6. Package the item and ship it back to us"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "When will I get my refund?"
+      },
+      {
+        "role": "assistant",
+        "content": "Refunds are typically processed within 5-7 business days after we receive your returned item. The refund will be credited to your original payment method. Youll receive an email confirmation once the refund is processed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I update my shipping address?"
+      },
+      {
+        "role": "assistant",
+        "content": "To update your shipping address: 1. Log into your account 2. Go to Account Settings 3. Click on Addresses 4. Edit your existing address or add a new one 5. Save your changes. Note: You cannot change the address for orders that have already been shipped."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are your shipping options?"
+      },
+      {
+        "role": "assistant",
+        "content": "We offer several shipping options: 1. Standard shipping (5-7 business days) - Free on orders over 50 2. Express shipping (2-3 business days) - 9.99 3. Overnight shipping (1 business day) - 19.99. Shipping costs are calculated at checkout."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I received a damaged item"
+      },
+      {
+        "role": "assistant",
+        "content": "Were sorry to hear your item arrived damaged. Please: 1. Take photos of the damaged item and packaging 2. Contact our support team within 48 hours 3. Provide your order number and photos 4. Well arrange for a replacement or refund immediately"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I contact customer support?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact our customer support team: 1. Live chat on our website (available 247) 2. Email us at supportcompany.com 3. Call us at 1-800-123-4567 (Mon-Fri 9AM-6PM) 4. Submit a support ticket through your account dashboard"
+      }
+    ]
+  }
+]

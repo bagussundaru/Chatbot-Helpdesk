@@ -1,0 +1,35 @@
+2025-07-23 11:36:10.333 | INFO     | __main__:main:77 - Starting Bitext dataset integration process
+2025-07-23 11:36:10.342 | INFO     | __main__:ensure_directories:25 - Created directory: data/bitext
+2025-07-23 11:36:10.342 | INFO     | __main__:process_bitext_data:29 - Processing Bitext dataset...
+2025-07-23 11:36:10.345 | INFO     | bitext_processor:process_all_data:138 - Starting Bitext data processing...
+2025-07-23 11:36:10.345 | ERROR    | bitext_processor:process_all_data:143 - No CSV files found
+2025-07-23 11:36:10.345 | WARNING  | __main__:process_bitext_data:40 - No Bitext training data was processed
+2025-07-23 11:36:10.349 | INFO     | __main__:process_sipd_data:45 - Processing SIPD dataset...
+2025-07-23 11:36:10.350 | INFO     | data_processor:process_all_data:147 - Starting data processing...
+2025-07-23 11:36:10.407 | INFO     | data_processor:load_csv_files:28 - Loaded sample_sipd_issues.csv: 5 rows
+2025-07-23 11:36:10.424 | INFO     | data_processor:consolidate_dataframes:82 - Consolidated 5 total records
+2025-07-23 11:36:10.432 | INFO     | data_processor:create_training_data:133 - Created 5 training examples
+2025-07-23 11:36:10.440 | INFO     | data_processor:save_training_data:141 - Training data saved to sipd_training_data.json
+2025-07-23 11:36:10.442 | INFO     | data_processor:save_training_data:141 - Training data saved to data/processed/sipd_training_data.json
+2025-07-23 11:36:10.442 | INFO     | __main__:process_sipd_data:53 - Saved 5 SIPD training examples to data/processed/sipd_training_data.json
+2025-07-23 11:36:10.450 | INFO     | __main__:combine_datasets:68 - Combined dataset saved with 5 examples to data/processed/combined_training_data.json
+2025-07-23 11:36:10.450 | INFO     | __main__:main:91 - Integration process completed
+2025-07-23 11:37:45.066 | INFO     | __main__:main:77 - Starting Bitext dataset integration process
+2025-07-23 11:37:45.066 | INFO     | __main__:process_bitext_data:29 - Processing Bitext dataset...
+2025-07-23 11:37:45.066 | INFO     | bitext_processor:process_all_data:138 - Starting Bitext data processing...
+2025-07-23 11:37:45.066 | INFO     | bitext_processor:load_csv_files:28 - Loaded bitext-customer-support-dataset.csv: 10 rows
+2025-07-23 11:37:45.074 | INFO     | bitext_processor:consolidate_dataframes:89 - Consolidated 10 total records
+2025-07-23 11:37:45.074 | INFO     | bitext_processor:create_training_data:124 - Created 10 training examples
+2025-07-23 11:37:45.074 | INFO     | bitext_processor:save_training_data:132 - Training data saved to bitext_training_data.json
+2025-07-23 11:37:45.082 | INFO     | bitext_processor:save_training_data:132 - Training data saved to data/processed/bitext_training_data.json
+2025-07-23 11:37:45.082 | INFO     | __main__:process_bitext_data:37 - Saved 10 Bitext training examples to data/processed/bitext_training_data.json
+2025-07-23 11:37:45.082 | INFO     | __main__:process_sipd_data:45 - Processing SIPD dataset...
+2025-07-23 11:37:45.082 | INFO     | data_processor:process_all_data:147 - Starting data processing...
+2025-07-23 11:37:45.082 | INFO     | data_processor:load_csv_files:28 - Loaded sample_sipd_issues.csv: 5 rows
+2025-07-23 11:37:45.092 | INFO     | data_processor:consolidate_dataframes:82 - Consolidated 5 total records
+2025-07-23 11:37:45.092 | INFO     | data_processor:create_training_data:133 - Created 5 training examples
+2025-07-23 11:37:45.092 | INFO     | data_processor:save_training_data:141 - Training data saved to sipd_training_data.json
+2025-07-23 11:37:45.099 | INFO     | data_processor:save_training_data:141 - Training data saved to data/processed/sipd_training_data.json
+2025-07-23 11:37:45.099 | INFO     | __main__:process_sipd_data:53 - Saved 5 SIPD training examples to data/processed/sipd_training_data.json
+2025-07-23 11:37:45.099 | INFO     | __main__:combine_datasets:68 - Combined dataset saved with 15 examples to data/processed/combined_training_data.json
+2025-07-23 11:37:45.099 | INFO     | __main__:main:91 - Integration process completed

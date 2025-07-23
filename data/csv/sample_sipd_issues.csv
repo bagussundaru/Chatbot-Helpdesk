@@ -1,0 +1,6 @@
+MENU,ISSUE,EXPECTED,NOTE BY DEV,NOTE BY QA
+Login/Akses,"Tidak bisa login ke SIPD, muncul error 500",User dapat login dengan normal,Cek koneksi database dan clear browser cache,"Pastikan username dan password benar, coba browser lain"
+Penganggaran,"Error saat input DPA, data tidak tersimpan",DPA dapat diinput dan tersimpan dengan benar,Validasi format data DPA dan cek koneksi,Pastikan semua field mandatory terisi
+Pelaporan,Laporan tidak bisa di-export ke Excel,Laporan dapat di-export ke format Excel,Update library export dan cek permission file,Coba export dengan data yang lebih sedikit
+Penatausahaan,"SPP tidak bisa dibuat, tombol simpan tidak aktif",SPP dapat dibuat dan disimpan,Cek validasi form dan JavaScript error,Pastikan semua data pendukung sudah lengkap
+Akuntansi,Jurnal otomatis tidak terbentuk setelah posting,Jurnal otomatis terbentuk sesuai transaksi,Cek konfigurasi akun dan mapping jurnal,Verifikasi setup chart of account

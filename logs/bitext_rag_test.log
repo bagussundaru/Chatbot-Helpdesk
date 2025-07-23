@@ -1,0 +1,114 @@
+2025-07-23 11:40:44.364 | INFO     | __main__:main:111 - Starting Bitext RAG integration test
+2025-07-23 11:41:53.695 | INFO     | __main__:main:111 - Starting Bitext RAG integration test
+2025-07-23 11:41:53.703 | INFO     | __main__:load_processed_data:32 - Loaded 10 training examples from data/processed/bitext_training_data.json
+2025-07-23 11:41:53.703 | INFO     | __main__:convert_to_rag_documents:70 - Converted 10 training examples to RAG documents
+2025-07-23 11:41:53.705 | INFO     | __main__:test_rag_with_bitext_data:90 - Adding documents to RAG system...
+2025-07-23 11:41:53.777 | INFO     | __main__:test_rag_with_bitext_data:102 - Testing RAG system with sample queries...
+2025-07-23 11:41:53.777 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I reset my password?
+2025-07-23 11:42:14.132 | INFO     | __main__:main:111 - Starting Bitext RAG integration test
+2025-07-23 11:42:14.140 | INFO     | __main__:load_processed_data:32 - Loaded 10 training examples from data/processed/bitext_training_data.json
+2025-07-23 11:42:14.140 | INFO     | __main__:convert_to_rag_documents:70 - Converted 10 training examples to RAG documents
+2025-07-23 11:42:14.140 | INFO     | __main__:test_rag_with_bitext_data:90 - Adding documents to RAG system...
+2025-07-23 11:42:14.148 | INFO     | __main__:test_rag_with_bitext_data:102 - Testing RAG system with sample queries...
+2025-07-23 11:42:14.148 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I reset my password?
+2025-07-23 11:48:29.422 | INFO     | __main__:main:113 - Starting Bitext RAG integration test
+2025-07-23 11:48:29.422 | INFO     | __main__:load_processed_data:32 - Loaded 10 training examples from data/processed/bitext_training_data.json
+2025-07-23 11:48:29.422 | INFO     | __main__:convert_to_rag_documents:70 - Converted 10 training examples to RAG documents
+2025-07-23 11:48:29.422 | INFO     | __main__:test_rag_with_bitext_data:90 - Adding documents to RAG system...
+2025-07-23 11:48:29.422 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: No module named 'chromadb'
+2025-07-23 11:48:29.430 | ERROR    | nebius_embedding_integration:add_documents:206 - Error adding documents: 'NoneType' object has no attribute 'add'
+2025-07-23 11:48:29.430 | INFO     | __main__:test_rag_with_bitext_data:102 - Testing RAG system with sample queries...
+2025-07-23 11:48:29.430 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I reset my password?
+2025-07-23 11:48:29.430 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: No module named 'chromadb'
+2025-07-23 11:48:29.438 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:48:29.438 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:48:29.438 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: I need to cancel my order
+2025-07-23 11:48:29.438 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: No module named 'chromadb'
+2025-07-23 11:48:29.446 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:48:29.446 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:48:29.446 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: Where is my refund?
+2025-07-23 11:48:29.446 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: No module named 'chromadb'
+2025-07-23 11:48:29.446 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:48:29.454 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:48:29.454 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: I can't log into my account
+2025-07-23 11:48:29.454 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: No module named 'chromadb'
+2025-07-23 11:48:29.463 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:48:29.463 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:48:29.463 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I update my shipping address?
+2025-07-23 11:48:29.471 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: No module named 'chromadb'
+2025-07-23 11:48:29.474 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:48:29.474 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:48:29.474 | INFO     | __main__:main:120 - Test completed
+2025-07-23 11:52:04.090 | INFO     | __main__:main:113 - Starting Bitext RAG integration test
+2025-07-23 11:52:04.092 | INFO     | __main__:load_processed_data:32 - Loaded 10 training examples from data/processed/bitext_training_data.json
+2025-07-23 11:52:04.092 | INFO     | __main__:convert_to_rag_documents:70 - Converted 10 training examples to RAG documents
+2025-07-23 11:52:04.093 | INFO     | __main__:test_rag_with_bitext_data:90 - Adding documents to RAG system...
+2025-07-23 11:52:16.279 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:16.280 | ERROR    | nebius_embedding_integration:add_documents:206 - Error adding documents: 'NoneType' object has no attribute 'add'
+2025-07-23 11:52:16.280 | INFO     | __main__:test_rag_with_bitext_data:102 - Testing RAG system with sample queries...
+2025-07-23 11:52:16.282 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I reset my password?
+2025-07-23 11:52:16.366 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:16.367 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:16.369 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:16.370 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: I need to cancel my order
+2025-07-23 11:52:16.453 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:16.453 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:16.454 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:16.454 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: Where is my refund?
+2025-07-23 11:52:16.519 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:16.520 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:16.520 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:16.522 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: I can't log into my account
+2025-07-23 11:52:16.590 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:16.592 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:16.594 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:16.596 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I update my shipping address?
+2025-07-23 11:52:16.665 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:16.665 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:16.665 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:16.667 | INFO     | __main__:main:120 - Test completed
+2025-07-23 11:52:50.440 | INFO     | __main__:main:113 - Starting Bitext RAG integration test
+2025-07-23 11:52:50.440 | INFO     | __main__:load_processed_data:32 - Loaded 10 training examples from data/processed/bitext_training_data.json
+2025-07-23 11:52:50.440 | INFO     | __main__:convert_to_rag_documents:70 - Converted 10 training examples to RAG documents
+2025-07-23 11:52:50.440 | INFO     | __main__:test_rag_with_bitext_data:90 - Adding documents to RAG system...
+2025-07-23 11:52:51.558 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:51.559 | ERROR    | nebius_embedding_integration:add_documents:206 - Error adding documents: 'NoneType' object has no attribute 'add'
+2025-07-23 11:52:51.559 | INFO     | __main__:test_rag_with_bitext_data:102 - Testing RAG system with sample queries...
+2025-07-23 11:52:51.559 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I reset my password?
+2025-07-23 11:52:51.597 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:51.597 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:51.597 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:51.597 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: I need to cancel my order
+2025-07-23 11:52:51.636 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:51.636 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:51.636 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:51.637 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: Where is my refund?
+2025-07-23 11:52:51.669 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:51.669 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:51.670 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:51.670 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: I can't log into my account
+2025-07-23 11:52:51.704 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:51.704 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:51.704 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:51.704 | INFO     | __main__:test_rag_with_bitext_data:104 - 
+Query: How do I update my shipping address?
+2025-07-23 11:52:51.738 | ERROR    | nebius_embedding_integration:initialize_vector_store:127 - Error initializing vector store: 'function' object has no attribute 'name'
+2025-07-23 11:52:51.738 | ERROR    | nebius_embedding_integration:search_similar:245 - Error searching similar documents: 'NoneType' object has no attribute 'query'
+2025-07-23 11:52:51.738 | INFO     | __main__:test_rag_with_bitext_data:106 - Context: No relevant context found in the knowledge base.
+2025-07-23 11:52:51.738 | INFO     | __main__:main:120 - Test completed
