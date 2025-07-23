@@ -6,7 +6,9 @@
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
-        "maxDuration": 10
+        "maxDuration": 10,
+        "pythonPath": ".",
+        "pipInstallArgs": "-r requirements.txt"
       }
     }
   ],
